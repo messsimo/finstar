@@ -1,0 +1,67 @@
+/* Styles for header block */
+header {
+    margin: 50px 30px 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    line-height: 100px;
+}
+
+header img {
+    width: 104px;
+    height: 70px;
+}
+
+header nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+header nav a:hover {
+    color: #E12929;
+}
+
+header nav a.active {
+    color: #E12929;
+}
+
+header nav a.active:hover {
+    color: black;
+}
+
+header .btns a:first-child {
+    margin-right: 35px;
+}
+
+header .btns a {
+    padding: 8px 24px;
+    border: 2px solid #2E6EBA;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: 0.5s ease-in-out;
+}
+
+header .btns a:hover {
+    background-color: #2E6EBA;
+    color: white;
+}
+
+header .btns a.reg {
+    background-color: #E12929;
+    border: 2px solid #E12929;
+    color: white;
+}
+
+header .btns a.reg:hover {
+    background-color: #C73737;
+}
