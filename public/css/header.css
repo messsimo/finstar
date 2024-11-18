@@ -63,5 +63,6 @@ header .btns a.reg {
 }
 
 header .btns a.reg:hover {
+    border: 2px solid #C73737;
     background-color: #C73737;
 }
