@@ -298,5 +298,24 @@
     </div>
 </div>
 
+<!-- Contact block -->
+<div class="contact">
+    <div class="container-contact">
+        <div class="text">
+            <h2>Свяжитесь с нами</h2>
+            <h2 class="last-h2">удобным способом</h2>
+            <h3>+7 (495) 111-33-35</h3>
+            <p>123112, г. Москва, вн.тер.г. муниципальный округ</p>
+            <p>Пресненский, проезд 1-й</p>
+            <p class="last-p">Красногвардейский, д. 15, этаж 10, ком. 7</p>
+            <span>Общие вопросы: mail@ew-mc.ru</span>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2063.5469085217255!2d37.541452076652796!3d55.76258597308783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTXCsDQ1JzQ1LjMiTiAzN8KwMzInMzguNSJF!5e1!3m2!1sru!2s!4v1732042323077!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
 <!-- Connecting JS -->
  <script src="/public/js/faqChanges.js"></script>

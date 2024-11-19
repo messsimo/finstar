@@ -475,3 +475,54 @@
     font-weight: 400;
     vertical-align: bottom;
 }
+
+/* Styles for contact block */
+.contact {
+    margin: 100px 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(154,169,250,1) 100%);
+}
+
+.contact .container-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.contact .container-contact .text {
+    padding-top: 100px;
+}
+
+.contact .container-contact .text h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.contact .container-contact .text .last-h2 {
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+.contact .container-contact .text h3 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.contact .container-contact .text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact .container-contact .text .last-p {
+    padding-bottom: 20px;
+}
+
+.contact .container-contact .text span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact .container-contact .map iframe {
+    border-radius: 12px;
+}
