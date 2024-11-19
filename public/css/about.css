@@ -97,7 +97,9 @@
 }
 
 .faq .container-faq .img {
-    width: 50%;   
+    width: 50%;
+    display: grid;
+    place-items: center;  
 }
 
 .faq .container-faq .img .dots {
@@ -231,6 +233,7 @@
 .team .container-team {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding-top: 25px;
 }
 
@@ -303,14 +306,18 @@
 .documents .container-documents--top .qr {
     display: grid;
     place-items: center;
-    width: 272px;
+    width: 50%;
 }
 
 .documents .container-documents--top span {
-    width: 100%;
+    width: 272px;
     font-size: 14px;
     font-weight: 400;
     padding-top: 15px;
+}
+
+.documents .container-documents--top .contact-info {
+    width: 50%;
 }
 
 .documents .container-documents--top .contact-info p {
@@ -491,6 +498,7 @@
 
 .contact .container-contact .text {
     padding-top: 100px;
+    width: 50%;
 }
 
 .contact .container-contact .text h2 {
