@@ -107,6 +107,7 @@
     border-radius: 18px;
     background-color: #D0D0D0;
     margin-right: 5px;
+    transition: 0.3s ease-in-out;
 }
 
 .faq .container-faq .img .dots .dot.active {
@@ -127,7 +128,9 @@
 .faq .container-faq .questions .block {
     width: 87%;
     margin: 10px 0;
+    border: 2px solid transparent;
     display: flex;
+    transition: 0.3s ease;
 }
 
 .faq .container-faq .questions .block .bar {
@@ -146,6 +149,7 @@
 .faq .container-faq .questions .block.active {
     border: 2px solid #E12929;
     border-radius: 8px;
+    margin: 9px 0;
 }
 
 .faq .container-faq .questions .block.active .bar {

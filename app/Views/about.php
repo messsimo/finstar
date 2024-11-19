@@ -95,5 +95,8 @@
 
     <!-- Connecting footer block -->
     <?php include("layouts/footer.php"); ?>
+
+    <!-- Connecting JS -->
+    <script src="/public/js/faqChanges.js"></script>
 </body>
 </html>
