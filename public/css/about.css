@@ -47,15 +47,20 @@
 /* Styles for advantages block */
 .advantages {
     padding: 15px 30px;
-    display: grid;
-    justify-content: center;
 }
 
 .advantages .container-advantages {
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(3, 3fr);
     width: 100%;
+    overflow-x: auto;
+    word-wrap: break-word;
+    overflow: scroll;
+}
+
+.advantages .container-advantages::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px;
 }
 
 .advantages .container-advantages .block {

@@ -108,3 +108,17 @@
         width: 200px;
     }
 }
+
+/* Adaptation for advatages block */
+/* @media (max-width: 1380px) {
+    /* .advantages .container-advantages {
+        width: max-content;
+        overflow-x: auto;
+        word-wrap: break-word;
+        overflow: scroll;
+    }
+
+    .advantages .container-advantages::-webkit-scrollbar {
+        width: 0px; 
+        height: 0px;
+    } */
