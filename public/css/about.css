@@ -42,3 +42,40 @@
     margin-top: -15px;
     margin-right: 150px;
 }
+
+/* Styles for advantages block */
+.advantages {
+    padding: 15px 30px;
+}
+
+.advantages .container-advantages {
+    display: flex;
+    width: 100%
+}
+
+.advantages .container-advantages .block {
+    width: 444px;
+    background-color: #FBFBFB;
+    border-radius: 12px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.advantages .container-advantages .block:last-child {
+    margin-right: 0;
+}
+
+.advantages .container-advantages .block h3 {
+    font-size: 100px;
+    font-weight: 800;
+    color: transparent; 
+    -webkit-text-stroke: 3px #E1292966;
+    margin-bottom: -30px;
+    text-align: left;
+}
+
+.advantages .container-advantages .block span {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}

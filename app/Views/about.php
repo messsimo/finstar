@@ -30,6 +30,24 @@
         </div>
     </div>
 
+    <!-- Advantages block -->
+    <div class="advantages">
+        <div class="container-advantages">
+            <div class="block">
+                <h3>#1</h3>
+                <span>12 паевых инвестиционных фондов в управлении</span>
+            </div>
+            <div class="block">
+                <h3>#2</h3>
+                <span>43,00 млрд ₽ — объем активов на 11.12.2023</span>
+            </div>
+            <div class="block">
+                <h3>#3</h3>
+                <span>Более 80 тысяч клиентов управляющей компании</span>
+            </div>
+        </div>
+    </div>
+
     <!-- Connecting footer block -->
     <?php include("layouts/footer.php"); ?>
 </body>
