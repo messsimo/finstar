@@ -159,5 +159,67 @@
     </div>
 </div>
 
+<!-- Documents block -->
+<div class="documents">
+    <h2>Надзорный орган</h2>
+    <div class="container-documents--top">
+        <div class="qr">
+            <img src="/public/images/qr.png" alt="QRcode">
+            <span>Отсканируйте QR-код для перехода в справочник финансовых организаций</span>
+        </div>
+
+        <div class="contact-info">
+            <img src="/public/images/bank-logo.png" alt="Банк России">
+            <p>Контактные данные для направления обращений получателей финансовых услуг</p>
+            <div class="data">
+                <table>
+                    <tr>
+                        <td class="first-td">Сайт Банка России</td>
+                        <td>+7 499 300 30 00</td>
+                    </tr>
+                    <tr>
+                        <td class="first-td">Страница Управляющей компании на сайте</td>
+                        <td>8 800 300 30 00</td>
+                    </tr>
+                    <tr>
+                        <td class="first-td">Банка России</td>
+                        <td>300 (для звонков с мобильных телефонов)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container-documents--bottom">
+        <div class="first-document">
+            <div class="text">
+                <h2>Лицензия №21-000-1-00749</h2>
+                <span>На осуществление деятельности по управлению инвестиционными фондами, паевыми инвестиционными фондами и негосударственными пенсионными фондами</span>
+                <p>от 24 августа 2010 года, бессрочная</p>
+            </div>
+            <img src="/public/images/doc1.png" alt="Document">
+        </div>
+        <div class="second-document">
+            <h2>Свидетельство СРО</h2>
+            <span>ООО «Управляющая компания «Восток-Запад» является члено саморегулируемой организации Национальная организация участников фондового рынка</span>
+            <p>Дата вступления в СРО: 24.01.2018</p>
+            <h4>Саморегулируемая организация</h4>
+            <img src="/public/images/naufor.png" alt="НАУФОР">
+            <span>Контактные данные для направления обращений получателей финансовых услуг</span>
+
+            <div class="contact-info">
+                <p>Сайт НАУФОР</p>
+                <div class="number">
+                    <span>+7 495 787 77 74</span>
+                    <span>+7 495 787 77 75</span>
+                </div>
+            </div>
+
+            <div class="img">
+                <img src="/public/images/doc2.png" alt="Document">
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Connecting JS -->
  <script src="/public/js/faqChanges.js"></script>

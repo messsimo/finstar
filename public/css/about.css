@@ -282,3 +282,161 @@
     background-color: #2E6EBA;
     color: white;
 }
+
+/* Styles for documents block */
+.documents {
+    padding: 15px 30px;
+}
+
+.documents h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* Container top */
+.documents .container-documents--top {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.documents .container-documents--top .qr {
+    display: grid;
+    place-items: center;
+    width: 272px;
+}
+
+.documents .container-documents--top span {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.documents .container-documents--top .contact-info p {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 25px 0;
+    width: 523px;
+}
+
+.documents .container-documents--top .contact-info .data {
+    width: 698px;
+}
+
+.documents .container-documents--top .contact-info .data table tr td {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.documents .container-documents--top .contact-info .data table tr .first-td {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F80FF;
+    width: 60%;
+    vertical-align: top;
+}
+
+/* Container bottom */
+.documents .container-documents--bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.documents .container-documents--bottom .first-document {
+    background-color: #FBFBFB;
+    border-radius: 12px;
+    margin-right: 50px;
+    padding: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.documents .container-documents--bottom .first-document .text {
+    display: grid;
+    place-items: left;
+}
+
+.documents .container-documents--bottom .first-document .text h2 {
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.documents .container-documents--bottom .first-document .text span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.documents .container-documents--bottom .first-document .text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #828282;
+    padding: 15px 0 50px 0;
+}
+
+.documents .container-documents--bottom .second-document {
+    background-color: #FBFBFB;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.documents .container-documents--bottom .second-document h2 {
+    font-size: 25.9px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.documents .container-documents--bottom .second-document span {
+    font-size: 14.38px;
+    font-weight: 400;
+}
+
+.documents .container-documents--bottom .second-document p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #828282;
+    padding: 15px 0 25px 0;
+}
+
+.documents .container-documents--bottom .second-document h4 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.documents .container-documents--bottom .second-document img {
+    display: block;
+    padding: 15px 0 30px 0;
+}
+
+.documents .container-documents--bottom .second-document span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.documents .container-documents--bottom .second-document .contact-info {
+    display: flex;
+    padding-top: 15px;
+} 
+
+.documents .container-documents--bottom .second-document .contact-info p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #4F9D3A;
+    margin-top: -15px;
+    margin-right: 200px;
+}
+
+.documents .container-documents--bottom .second-document .contact-info .number span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.documents .container-documents--bottom .second-document .img {
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
