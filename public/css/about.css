@@ -1,0 +1,44 @@
+/* Styles for hero block */
+.hero {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(154,169,250,1) 100%);
+    padding: 15px 30px;
+    height: 400px;
+}
+
+.hero .page-nav span {
+    color: #7D7D7D;
+    font-weight: 300;
+    font-size: 12.8px;
+}
+
+.hero .page-nav span b {
+    color: black;
+}
+
+.hero .container-hero {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero .container-hero .text {
+    padding-top: 100px;
+    width: 50%;
+}
+
+.hero .container-hero .text span {
+    font-size: 14px;
+    color: #232222;
+    font-weight: 300;
+}
+
+.hero .container-hero .text h2 {
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.hero .container-hero img {
+    margin-top: -15px;
+    margin-right: 150px;
+}
