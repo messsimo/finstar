@@ -73,6 +73,33 @@
 </div>
 
 <!-- Priorities block-->
+<div class="priorities">
+    <h2>Цель №1 — финансовое благополучие наших клиентов</h2>
+    <p>Основная задача — предвидеть ситуацию и гибко реагировать на изменчивость финансового рынка</p>
+    <h3>Наши приоритеты:</h3>
+    <div class="container-priorities">
+        <div class="block">
+            <img src="/public/images/medal.png" alt="Finstar">
+            <span>Поощрение перемен и инноваций</span>
+        </div>
+        <div class="block">
+            <img src="/public/images/medal.png" alt="Finstar">
+            <span>Проведение собственных анализов</span>
+        </div>
+        <div class="block">
+            <img src="/public/images/medal.png" alt="Finstar">
+            <span>Доверительное отношение с инвесторами</span>
+        </div>
+        <div class="block">
+            <img src="/public/images/medal.png" alt="Finstar">
+            <span>Прозрачность и открытость</span>
+        </div>
+        <div class="block">
+            <img src="/public/images/medal.png" alt="Finstar">
+            <span>Достижение консенсуса в любых ситуациях</span>
+        </div>
+    </div>
+</div>
 
 <!-- Connecting JS -->
  <script src="/public/js/faqChanges.js"></script>

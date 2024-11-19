@@ -157,3 +157,58 @@
     font-weight: 500;
     color: #232222;
 }
+
+/* Styles for priorities block */
+.priorities {
+    padding: 15px 30px;
+}
+
+.priorities h2 {
+    color: #232222;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.priorities p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #232222;
+}
+
+.priorities h3 {
+    color: #232222;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.priorities .container-priorities {
+    display: flex;
+    overflow-x: auto;
+    word-wrap: break-word;
+    overflow: scroll;
+}  
+
+.priorities .container-priorities::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px;
+}
+  
+
+.priorities .container-priorities .block {
+    min-width: 344px;
+    max-width: 344px;
+    border-radius: 12px;
+    background-color: #FBFBFB;
+    display: grid;
+    place-items: center;
+    margin-right: 15px;
+    padding: 25px 25px;
+}
+
+.priorities .container-priorities .block span {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}

@@ -17,9 +17,7 @@
 
     <!-- Connecting about page -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . "/app/Views/about.php"); ?>
-
-
-
+    
     <!-- Connecting footer block -->
     <?php include("footer.php"); ?>
 </body>
