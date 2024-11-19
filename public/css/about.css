@@ -440,3 +440,38 @@
     place-items: center;
     padding-top: 50px;
 }
+
+/* Styles for details block */
+.details {
+    padding: 50px 30px;
+}
+
+.details h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #232222;
+}
+
+.details .container-details {
+    display: grid;
+    place-items: center;
+    padding-top: 25px;
+}
+
+.details .container-details table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.details .container-details table tr td:first-child {
+    color: #686868;
+    font-size: 15px;
+}
+
+.details .container-details table tr td {
+    border-bottom: 1px solid #00000066;
+    padding: 15px 0 5px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: bottom;
+}

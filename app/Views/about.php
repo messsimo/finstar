@@ -221,5 +221,82 @@
     </div>
 </div>
 
+<!-- Details block -->
+<div class="details">
+    <h2>Реквизиты</h2>
+    <div class="container-details">
+        <table>
+            <tr>
+                <td>Генеральный директор</td>
+                <td>Кулик Дмитрий Станиславович</td>
+            </tr>
+            <tr>
+                <td>Полное наименование</td>
+                <td>Общество с ограниченной ответственностью «Управляющая компания «Восток-Запад»</td>
+            </tr>
+            <tr>
+                <td>Сокращенное наименование</td>
+                <td>ООО «Управляющая компания «Восток-Запад»</td>
+            </tr>
+            <tr>
+                <td>Полное наименование на иностранном языке</td>
+                <td>Asset Management Company "East - West" Limited</td>
+            </tr>
+            <tr>
+                <td>Сокращенное наименование на иностранном языке</td>
+                <td>AMC "East - West" Ltd.</td>
+            </tr>
+            <tr>
+                <td>Место нахождения</td>
+                <td>123112, г. Москва, вн.тер.г. муниципальный округ Пресненский, проезд 1-й Красногвардейский, д. 15, этаж 10, ком. 7</td>
+            </tr>
+            <tr>
+                <td>ОГРН</td>
+                <td>1056405422875</td>
+            </tr>
+            <tr>
+                <td>ИНН</td>
+                <td>6454074653</td>
+            </tr>
+            <tr>
+                <td>КПП</td>
+                <td>770301001</td>
+            </tr>
+            <tr>
+                <td>Global Intermediary Identification Number (GIIN)</td>
+                <td>TD6HD0.99999.SL.643</td>
+            </tr>
+            <tr>
+                <td>Телефон</td>
+                <td>+7 (495) 111-33-35</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>mail@ew-mc.ru</td>
+            </tr>
+            <tr>
+                <td>Адрес сайта</td>
+                <td>https://ew-mc.ru/</td>
+            </tr>
+            <tr>
+                <td>Расчётный счёт</td>
+                <td>40701810900010103349</td>
+            </tr>
+            <tr>
+                <td>Банк</td>
+                <td>ООО «ФФИН Банк» г. Москва</td>
+            </tr>
+            <tr>
+                <td>Корреспондентский счёт</td>
+                <td>30101810245250000900</td>
+            </tr>
+            <tr>
+                <td>БИК</td>
+                <td>044525900</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
 <!-- Connecting JS -->
  <script src="/public/js/faqChanges.js"></script>
