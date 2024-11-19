@@ -34,3 +34,77 @@
         display: block;
     }
 }
+
+/* Adaptation for hero block */
+@media (max-width: 1266px) {
+    .hero .container-hero .text {
+        min-width: 60%;
+    }
+
+    .hero .container-hero img {
+        margin-right: 90px;
+    }
+}
+
+@media (max-width: 1065px) {
+    .hero .container-hero img {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 980px) {
+    .hero {
+        height: max-content;
+    }
+
+    .hero .container-hero {
+        display: grid;
+        place-items: center;
+        justify-content: center;
+    }
+
+    .hero .container-hero .text {
+        min-width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .hero .container-hero img {
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 663px) {
+    .hero .container-hero .text h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 577px) {
+    .hero .container-hero .text h2 {
+        font-size: 30px;
+    }
+
+    .hero .container-hero img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 491px) {
+    .hero .container-hero .text h2 {
+        font-size: 26px;
+    }
+
+    .hero .container-hero .text span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 433px) {
+    .hero .container-hero .text h2 {
+        font-size: 22px;
+    }
+
+    .hero .container-hero img {
+        width: 200px;
+    }
+}

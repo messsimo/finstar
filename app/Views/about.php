@@ -1,7 +1,7 @@
 <!-- Hero block -->
 <div class="hero">
     <div class="page-nav">
-        <span>Главная > <b>О компании</s></span>
+        <span>Главная > <b>О компании</b></span>
     </div>
 
     <div class="container-hero">
