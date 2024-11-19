@@ -14,6 +14,7 @@
 
 .hero .page-nav span b {
     color: black;
+    font-weight: 300;
 }
 
 .hero .container-hero {
@@ -46,19 +47,23 @@
 /* Styles for advantages block */
 .advantages {
     padding: 15px 30px;
+    display: grid;
+    justify-content: center;
 }
 
 .advantages .container-advantages {
-    display: flex;
-    width: 100%
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 3fr);
+    width: 100%;
 }
 
 .advantages .container-advantages .block {
     width: 444px;
     background-color: #FBFBFB;
     border-radius: 12px;
-    margin-right: 50px;
-    text-align: center;
+    margin-right: 25px;
+    text-align: left;
 }
 
 .advantages .container-advantages .block:last-child {
@@ -71,13 +76,13 @@
     color: transparent; 
     -webkit-text-stroke: 3px #E1292966;
     margin-bottom: -30px;
-    text-align: left;
 }
 
 .advantages .container-advantages .block span {
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    margin-left: 10px;
 }
 
 /* Styles for FAQ block */
@@ -122,7 +127,6 @@
 .faq .container-faq .questions h1 {
     font-size: 36px;
     font-weight: 700;
-    padding-bottom: 10px;
 }
 
 .faq .container-faq .questions .block {
@@ -131,27 +135,25 @@
     border: 2px solid transparent;
     display: flex;
     transition: 0.3s ease;
-}
-
-.faq .container-faq .questions .block .bar {
-    background-color: #E12929;
-    width: 2px;
-    height: 50px;
+    border-left: 2px solid #E12929;
+    border-radius: 0px;
 }
 
 .faq .container-faq .questions .block span {
     font-size: 18px;
     font-weight: 400;
-    /* padding-left: 10px; */
     padding: 10px;
+    color: #333333;
+    transition: 0.3s ease;
 }
 
 .faq .container-faq .questions .block.active {
     border: 2px solid #E12929;
     border-radius: 8px;
-    margin: 9px 0;
 }
 
-.faq .container-faq .questions .block.active .bar {
-    display: none;
+.faq .container-faq .questions .block.active span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #232222;
 }
