@@ -48,6 +48,51 @@
         </div>
     </div>
 
+    <!-- FAQ block -->
+    <div class="faq">
+        <div class="container-faq">
+            <div class="img">
+                <img src="/public/images/handshake.png" alt="Finstar">
+                <div class="dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+
+            <div class="questions">
+                <h1>Деятельность Управляющей компании</h1>
+                <div class="block active">
+                    <div class="bar"></div>
+                    <span>Доверительное управление паевыми инвестиционными фондами</span>
+                </div>
+                <div class="block">
+                    <div class="bar"></div>
+                    <span>Доверительное управление пенсионными резервами и пенсионными накоплениями</span>
+                </div>
+                <div class="block">
+                    <div class="bar"></div>
+                    <span>Создание фонда под параметры вашего проекта</span>
+                </div>
+                <div class="block">
+                    <div class="bar"></div>
+                    <span>Доверительное управление активами целевых капиталов (эндаумент-фондов)</span>
+                </div>
+                <div class="block">
+                    <div class="bar"></div>
+                    <span>Доверительное управление компенсационными фондами СРО</span>
+                </div>
+                <div class="block">
+                    <div class="bar"></div>
+                    <span>Доверительное управление средствами жилищного обеспечения накопительно-ипотечной системы военнослужащих</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Connecting footer block -->
     <?php include("layouts/footer.php"); ?>
 </body>
