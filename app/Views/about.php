@@ -101,5 +101,63 @@
     </div>
 </div>
 
+<!-- Company team block -->
+<div class="team">
+    <h2>Профессиональная команда Управляющей компании</h2>
+    <p>ООО «Управляющая компания «Finstar»</p>
+
+    <div class="container-team">
+        <div class="block">
+            <p>Кулик Дмитрий</p>
+            <p class="last-p">Станиславович</p>
+            <span>Генеральный директор ООО</span>
+            <span>«Управляющая компания «Finstar»</span>
+            <a href="">Подробнее</a>
+        </div>
+        <div class="block">
+            <p>Хафизов Сергей</p>
+            <p class="last-p">Евгеньевич</p>
+            <span>Заместитель Генерального директора – контролер</span>
+            <a href="">Подробнее</a>
+        </div>
+        <div class="block">
+            <p>Халин Сергей</p>
+            <p class="last-p">Юрьевич</p>
+            <span>Начальник отдела риск-менеджмента</span>
+            <a href="">Подробнее</a>
+        </div>
+        <div class="block">
+            <p>Беспалов Павел</p>
+            <p class="last-p">Юрьевич</p>
+            <span>Начальник отдела финансового мониторинга</span>
+            <a href="">Подробнее</a>
+        </div>
+        <div class="block">
+            <p>Кляцкин Дмитрий</p>
+            <p class="last-p">Вячеславович</p>
+            <span>Специалист по инвестициям</span>
+            <a href="">Подробнее</a>
+        </div>
+        <div class="block">
+            <p>Дернов Андрей</p>
+            <p class="last-p">Альбертович</p>
+            <span>Заместитель директора по инвестициям</span>
+            <a href="">Подробнее</a>
+        </div>
+        <div class="block">
+            <p>Дернов Андрей</p>
+            <p class="last-p">Альбертович</p>
+            <span>Заместитель директора по инвестициям</span>
+            <a href="">Подробнее</a>
+        </div>
+        <div class="block">
+            <p>Хафизов Сергей</p>
+            <p class="last-p">Евгеньевич</p>
+            <span>Заместитель Генерального директора – контролер</span>
+            <a href="">Подробнее</a>
+        </div>
+    </div>
+</div>
+
 <!-- Connecting JS -->
  <script src="/public/js/faqChanges.js"></script>

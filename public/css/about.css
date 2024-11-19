@@ -195,7 +195,6 @@
     height: 0px;
 }
   
-
 .priorities .container-priorities .block {
     min-width: 344px;
     max-width: 344px;
@@ -211,4 +210,75 @@
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+}
+
+/* Styles for company team block */
+.team {
+    padding: 15px 30px;
+}
+
+.team h2 {
+    color: #232222;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.team p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.team .container-team {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+
+.team .container-team .block {
+    width: 280px;
+    background-color: #FBFBFB;
+    display: grid;
+    place-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    padding: 25px 25px;
+}
+
+.team .container-team .block:last-child {
+    margin-right: 0;
+}
+
+.team .container-team .block p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.team .container-team .block .last-p {
+    padding-bottom: 10px;
+    margin-top: -5px;
+}
+
+.team .container-team .block span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.team .container-team .block a {
+    padding: 8px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    border: 2px solid #2E6EBA;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.team .container-team .block a:hover {
+    background-color: #2E6EBA;
+    color: white;
 }
