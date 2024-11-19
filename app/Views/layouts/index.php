@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/public/css/header.css">
     <link rel="stylesheet" href="/public/css/footer.css">
     <link rel="stylesheet" href="/public/css/about.css">
+    <link rel="stylesheet" href="/public/css/adapation_about.css">
     <!-- Title -->
     <title>Finstar</title>
 </head>
@@ -20,5 +21,8 @@
     
     <!-- Connecting footer block -->
     <?php include("footer.php"); ?>
+
+    <!-- Connecting JS -->
+    <script src="/public/js/burger.js"></script>
 </body>
 </html>

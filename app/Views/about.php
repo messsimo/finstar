@@ -318,4 +318,4 @@
 </div>
 
 <!-- Connecting JS -->
- <script src="/public/js/faqChanges.js"></script>
+<script src="/public/js/faqChanges.js"></script>
