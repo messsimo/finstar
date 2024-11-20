@@ -107,6 +107,10 @@
     place-items: center;  
 }
 
+.faq .container-faq .img img {
+    height: 554px;
+}
+
 .faq .container-faq .img .dots {
     display: flex;
     justify-content: center;
