@@ -244,3 +244,10 @@
         font-size: 12px;
     }
 }
+
+/* Adaptation for details block */
+@media (max-width: 790px) {
+    .details .container-details table {
+        width: 90%;
+    }
+}
