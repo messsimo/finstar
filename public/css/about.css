@@ -315,7 +315,7 @@
 .documents .container-documents--top .qr {
     display: grid;
     place-items: center;
-    width: 50%;
+    width: 40%;
 }
 
 .documents .container-documents--top span {
@@ -326,7 +326,7 @@
 }
 
 .documents .container-documents--top .contact-info {
-    width: 50%;
+    width: 60%;
 }
 
 .documents .container-documents--top .contact-info p {
