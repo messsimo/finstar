@@ -506,7 +506,7 @@
 }
 
 .contact .container-contact .text {
-    padding-top: 100px;
+    /* padding-top: 50px; */
     width: 50%;
 }
 
@@ -540,6 +540,14 @@
     font-weight: 400;
 }
 
+.contact .container-contact .map {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
 .contact .container-contact .map iframe {
     border-radius: 12px;
+    width: 500px;
+    height: 300px;
 }
